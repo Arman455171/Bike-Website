@@ -174,9 +174,10 @@
 	background-color: #f9f9f9;
 	padding: 30px;
 	position: relative;
+	transition: 0.8s;
 }
 .b_box:hover{
-	background-color: grey;
+	transform: translateY(-10px);
 }
 .b_img{
 	display: flex;
@@ -407,7 +408,7 @@
 	background-color:#e3e3e3;
 	position: relative;
 	padding: 30px;
-	
+	transition: 0.8s;
 }
 .bike_img{
 	display: flex;
@@ -474,7 +475,7 @@
 	transition: 0.5s;
 }
 .bike_item:hover{
-	background-color: grey;
+	transform: translateY(-10px);
 }
 .bike_item:hover del{
 	color: white;
